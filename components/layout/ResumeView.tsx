@@ -69,7 +69,7 @@ const FinalResumeView = ({
               <RWebShare
                 data={{
                   text: "Hello everyone, check out my resume by clicking the link!",
-                  url: `${process.env.BASE_URL}/${path}`,
+                  url: `${process.env.NEXT_PUBLIC_BASE_URL}/${path}`,
                   title: `${formData?.firstName} ${formData?.lastName}'s Resume`,
                 }}
                 onClick={() => console.log("Shared successfully!")}
